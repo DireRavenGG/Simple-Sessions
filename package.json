@@ -1,0 +1,31 @@
+{
+  "name": "login-backend-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app",
+    "pls": "nodemon cheeseshit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.9.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "connect-redis": "^6.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "pg": "^8.7.3",
+    "redis": "^4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prisma": "^3.9.2"
+  }
+}
